@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+header,
+main {
+  overflow-y: visible;
+  width: 1260px;
+  margin: auto;
+}
+
+main {
+  margin-top: 40px;
+}
+
+header > img {
+  position: relative;
+  top: 20px;
+}
+
+#toolbox {
+  float: right;
+  position: relative;
+  top: 30px;
+}
+
+#site {
+  display: inline;
+  position: absolute;
+  right: 40px;
+  top: -30px;
+}
+
+#toolbox input {
+  border: solid 1px #202d74;
+  height: 26px;
+  width: 150px;
+  position: relative;
+  bottom: 11px;
+  left: 6px;
+  margin-left: 15px;
+}
+
+#toolbox span {
+  position: relative;
+  bottom: 8px;
+  margin: auto 5px;
+}
+
+#toolbox > img.fontimg {
+  margin-right: 5px;
+}
+
+#site a {
+  font-size: 13px;
+  margin: 7px;
+}
+
+#mainnav {
+  overflow: hidden;
+  background-color: #202d74;
+  color: white;
+  overflow: hidden;
+  list-style: none;
+  padding: 15px 0px;
+}
+
+#mainnav li {
+  float: left;
+}
+
+#mainnav li.pagelink {
+  width: 251.2px;
+  border-right: solid 1px white;
+  text-align: center;
+}
+
+#mainnav li.pagelink:last-child {
+  border-right: 0px;
+}
+
+#thumb{
+  overflow: hidden;
+}
+
+#thumb .thumb{
+  float: left;
+  width: 33.3%;
+  height: 100px;
+  background-color: black;
+}
+
+#thumb .thumb .disabled {
+  opacity: 0.5;
+}
+
+#context {
+  overflow: hidden;
+  margin-top: 50px;
+  color: #202d74;
+}
+
+#sidenav,
+#information {
+  float: left;
+}
+
+#sidenav {
+  width: 360px;
+}
+
+#internetbank h3,
+#internetbank p {
+  margin: 0px;
+  text-align: center;
+}
+
+#internetbank p {
+  font-size: 12px;
+}
+
+#internetbank div {
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+#internetbank div.login{
+  background-color: #202d74;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#internetbank div.firstlogin{
+  background-color: #8fc31f;
+  font-size: 13px;
+  font-weight: bold;;
+}
+
+#internetbank a {
+  display: block;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 10px;
+}
+
+#serviceinfo h3 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#serviceinfo .services {
+  overflow: hidden;
+}
+
+#serviceinfo .services .service {
+  background-color: #1e8796;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  width: 114px;
+  height: 114px;
+  float: left;
+  margin-top: 9px;
+  margin-right: 9px;
+  position: relative;
+}
+
+#serviceinfo .services .service:nth-child(3n) {
+  margin-right: 0px;
+}
+
+
+#serviceinfo .services .service span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*最後の一つは細くなり、三行になってしまうので特別対応*/
+#serviceinfo .services .service span:last-child {
+  width: 80px;
+}
+
+#buttons {
+  margin-top: 30px
+}
+
+#buttons span{
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding: 8px 0px;
+  margin-top: 10px;
+}
+
+#buttons span.type01 {
+  background-color: #202d74;
+}
+
+#buttons span.type02 {
+  background-color: #8fc31f;
+}
+
+#type01,
+#type02,
+#lost {
+  margin-top: 30px;
+}
