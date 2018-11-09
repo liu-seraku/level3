@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+body {
+font-family: 'メイリオ', Meiryo;
+}
+
+
 header,
 main {
   overflow-y: visible;
@@ -25,8 +30,8 @@ header > img {
 #site {
   display: inline;
   position: absolute;
-  right: 40px;
-  top: -30px;
+  right: 35px;
+  top: -20px;
 }
 
 #toolbox input {
@@ -113,6 +118,12 @@ header > img {
   text-align: center;
 }
 
+#internetbank h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
 #internetbank p {
   font-size: 12px;
 }
@@ -145,6 +156,9 @@ header > img {
 }
 
 #serviceinfo h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
   margin-top: 50px;
   text-align: center;
 }
