@@ -150,7 +150,9 @@ header > img {
 }
 
 #serviceinfo .services {
-  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #serviceinfo .services .service {
@@ -161,16 +163,9 @@ header > img {
   text-align: center;
   width: 114px;
   height: 114px;
-  float: left;
-  margin-top: 9px;
-  margin-right: 9px;
+  margin-bottom: 9px;
   position: relative;
 }
-
-#serviceinfo .services .service:nth-child(3n) {
-  margin-right: 0px;
-}
-
 
 #serviceinfo .services .service span {
   position: absolute;
